@@ -1,0 +1,27 @@
+{
+  "name": "fast-tree",
+  "version": "0.1.0",
+  "description": "Vue.js 2.x tree component, based on vinz3872/vuejs-tree",
+  "main": "dist/fast-tree.js",
+  "scripts": {
+    "clear": "rimraf dist",
+    "build": "npm run clear && webpack-cli --progress --mode production",
+    "start": "npm run clear && webpack-cli --watch --progress --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sarafian",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "rimraf": "^2.6.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
